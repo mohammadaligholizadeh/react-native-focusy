@@ -19,12 +19,12 @@ export default class helloapp extends Component {
     return (
       <View style={styles.linearGradient}>
 
-        <View style={{backgroundColor: '#5ed4f9'}} />
+        {/*<View style={{backgroundColor: '#5ed4f9'}} />*/}
         <LinearGradient colors={['#5ed4f9', '#0874ed']} style={styles.container} >
         <Image source={require('./img/focusy-icon.png')} style={{alignItems:'center' ,width:150, height:150}} />
         <Image source={require('./img/focusy-test.png')} />
-      </LinearGradient>
-        <View style={{backgroundColor: '#0874ed'}} />
+        </LinearGradient>
+        {/*<View style={{backgroundColor: '#0874ed'}} />*/}
 
 
           {/*<Text style={styles.buttonText}>*/}
